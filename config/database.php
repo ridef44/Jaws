@@ -12,6 +12,8 @@ return [
     | array format for simplicity. Here you can tweak the fetch style.
     |
     */
+    
+    $DATABASE_URL=parse_url('mysql://b3j5btfwln2s1zjr:bscgc078l1gyhix7@jsk3f4rbvp8ayd7w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/eb9ccb1p1kmha2kb');
 
     'fetch' => PDO::FETCH_OBJ,
 
@@ -54,11 +56,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'jsk3f4rbvp8ayd7w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'casos'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', '12345678'),
+            'database' => env('DB_DATABASE', 'eb9ccb1p1kmha2kb'),
+            'username' => env('DB_USERNAME', 'b3j5btfwln2s1zjr'),
+            'password' => env('DB_PASSWORD', 'bscgc078l1gyhix7'),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
