@@ -13,7 +13,7 @@ return [
     |
     */
     
-    $DATABASE_URL=parse_url('mysql://b3j5btfwln2s1zjr:bscgc078l1gyhix7@jsk3f4rbvp8ayd7w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/eb9ccb1p1kmha2kb');
+   
 
     'fetch' => PDO::FETCH_OBJ,
 
